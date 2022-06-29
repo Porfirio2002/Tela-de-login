@@ -1,0 +1,41 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+.login {
+    background-color: #3b5998;
+    color: #ffffff;
+    
+    width: 100%;
+    height: 120px;
+}
+.logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    margin-top: 40px;
+    float: left;
+}
+.loginesenha {
+    float: right;
+    margin-right: 55px;
+    margin-top: 40px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cadastro {
+    float: right;
+    margin-right: 55px;
+    margin-top: 40px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sub {
+    float: right;
+    margin-right: 55px;
+    margin-top: 40px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
