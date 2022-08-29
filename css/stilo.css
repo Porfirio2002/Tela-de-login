@@ -1,8 +1,8 @@
 body {
-
+    background-color: #ffffff;
     padding: 0;
-
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -25,17 +25,112 @@ body {
     margin-top: 40px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.cadastro {
-    float: right;
-    margin-right: 55px;
-    margin-top: 40px; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+main {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #dfdbdb;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display:flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 2.12);
 
 }
-.sub {
-    float: right;
-    margin-right: 55px;
-    margin-top: 40px; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3af;
+    padding: 1rem;
 }
+.form-image img {
+    width: 31rem;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 3rem;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000000;
+} 
+.inpi-box label,
+.geder-title h6 {
+    font-size: 0,75rem;
+    font-weight: 600;
+    color: #000000;
+
+}
+.input-box input::placeholder{
+    color: #000000;
+}
+
+.gender-group{
+    display: flex;
+    margin: 3px 3px 3px 3px;
     
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.continue-button button{
+    width: 100%;
+    color: #ffffff;
+    background-color:hsl(113, 86%, 57%);
+    border: none;
+    padding: 0.62rem;
+    cursor: pointer;
+}
+.continue-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1330px) {
+    .form-image {
+    display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+}
